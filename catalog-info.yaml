@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-service
+  description: "Microservicio de prueba generado por Backstage scaffolder"
+  annotations:
+    github.com/project-slug: cokee96/demo-service
+    argocd/app-name: demo-service
+    backstage.io/kubernetes-id: demo-service
+spec:
+  type: service
+  lifecycle: production
+  owner: user:cokee96

@@ -1,0 +1,9 @@
+{
+  "name": "demo-service",
+  "version": "1.0.0",
+  "description": "Microservicio de prueba generado por Backstage scaffolder",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
