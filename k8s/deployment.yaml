@@ -21,7 +21,8 @@ spec:
     spec:
       containers:
         - name: demo-service
-          image: ghcr.io/cokee96/demo-service:latest
+          image: demo-service:1.0.0
+          imagePullPolicy: Never
           ports:
             - containerPort: 8080
           livenessProbe:
